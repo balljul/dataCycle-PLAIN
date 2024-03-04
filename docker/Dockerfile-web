@@ -56,7 +56,7 @@ RUN bundle install
 
 COPY --chown=ruby:ruby  package.json /var/app
 # COPY --chown=ruby:ruby pnpm-lock.yaml /var/app
-COPY --chown=ruby:ruby vendor/gems/data-cycle-core/package.json /var/app/vendor/gems/data-cycle-core
+COPY --chown=ruby:ruby vendor/gems/data-cycle-core/package.json /var/app/vendor/gems/data-cycle-core/
 
 RUN pnpm i
 
