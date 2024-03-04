@@ -43,7 +43,7 @@ PATH
       pdfkit
       pg
       premailer
-      puma (< 6)
+      puma
       puma-status
       puma_worker_killer
       rails (~> 6.1)
@@ -279,7 +279,8 @@ GEM
       ffi (~> 1.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    google-protobuf (3.25.1-x86_64-linux)
+    google-protobuf (3.25.3)
+    google-protobuf (3.25.3-x86_64-darwin)
     gretel (4.6.0)
       actionview (>= 5.1, < 7.2)
       railties (>= 5.1, < 7.2)
